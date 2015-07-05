@@ -1,0 +1,86 @@
+# view res/layout/abc_action_menu_item_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ActionMenuItemView { <init>(...); }
+
+# view res/layout/abc_action_menu_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ActionMenuView { <init>(...); }
+
+# view res/layout/abc_expanded_menu_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ExpandedMenuView { <init>(...); }
+
+# view res/layout/abc_list_menu_item_layout.xml #generated:17
+# view res/layout/abc_popup_menu_item_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ListMenuItemView { <init>(...); }
+
+# view res/layout/abc_action_bar_decor_include.xml #generated:19
+# view res/layout/abc_action_bar_decor_include.xml #generated:47
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:29
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:52
+-keep class android.support.v7.internal.widget.ActionBarContainer { <init>(...); }
+
+# view res/layout/abc_action_bar_decor_include.xml #generated:31
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:40
+# view res/layout/abc_action_mode_bar.xml #generated:19
+-keep class android.support.v7.internal.widget.ActionBarContextView { <init>(...); }
+
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:17
+-keep class android.support.v7.internal.widget.ActionBarOverlayLayout { <init>(...); }
+
+# view res/layout/abc_action_bar_decor_include.xml #generated:25
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:35
+-keep class android.support.v7.internal.widget.ActionBarView { <init>(...); }
+
+# view res/layout/abc_action_bar_home.xml #generated:17
+-keep class android.support.v7.internal.widget.ActionBarView$HomeView { <init>(...); }
+
+# view res/layout/abc_action_bar_tabbar.xml #generated:17
+# view res/layout/abc_activity_chooser_view.xml #generated:19
+-keep class android.support.v7.internal.widget.LinearLayoutICS { <init>(...); }
+
+# view v11\res/layout-v11/abc_action_bar_decor.xml #generated:17
+-keep class android.support.v7.internal.widget.NativeActionModeAwareLayout { <init>(...); }
+
+# view res/layout/abc_action_bar_tab.xml #generated:17
+-keep class android.support.v7.internal.widget.ScrollingTabContainerView$TabView { <init>(...); }
+
+# view res/layout/abc_search_view.xml #generated:85
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# view AndroidManifest.xml #generated:82
+-keep class com.example.myfirstapp.DisplayFriendsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:101
+-keep class com.example.myfirstapp.DisplayMapActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class com.example.myfirstapp.DisplayMessageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:70
+-keep class com.example.myfirstapp.DisplayProfileActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class com.example.myfirstapp.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:93
+-keep class com.example.myfirstapp.ShareActivity { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:9
+-keep class com.google.android.gms.common.SignInButton { <init>(...); }
+
+# onClick res/layout/activity_display_profile.xml #generated:98
+-keepclassmembers class * { *** addFood(...); }
+
+# onClick res/layout/activity_display_profile.xml #generated:119
+-keepclassmembers class * { *** editFood(...); }
+
+# onClick res/layout/activity_display_friends.xml #generated:24
+-keepclassmembers class * { *** editList(...); }
+
+# onClick res/layout/activity_display_friends.xml #generated:33
+-keepclassmembers class * { *** onClickWhatsApp(...); }
+
+# onClick res/layout/fragment_main.xml #generated:23
+-keepclassmembers class * { *** sendMessage(...); }
+
+# onClick res/layout/activity_display_map.xml #generated:13
+-keepclassmembers class * { *** showNearby(...); }
+

@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myfirstapp.MainActivity"
+    tools:ignore="MergeRootFrame">
+
+  	<com.google.android.gms.common.SignInButton
+  	    android:id="@+id/sign_in_button"
+  	    android:layout_width="fill_parent"
+  	    android:layout_height="wrap_content" >
+
+  	</com.google.android.gms.common.SignInButton>
+
+  	<Button
+  	    android:id="@+id/sign_out_button"
+  	    android:layout_width="fill_parent"
+  	    android:layout_height="wrap_content"
+  	    android:text="Sign out"
+  	    android:visibility="gone" />
+    
+</RelativeLayout>
+
+    
+
+    
+    
+

@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myfirstapp.DisplayFriendsActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+            android:id="@+id/friends_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true" >
+            
+                <ListView
+			        android:id="@+id/friendsName"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content" >
+			    </ListView>
+	    
+	</LinearLayout>
+
+
+	
+</FrameLayout>
+
